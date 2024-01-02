@@ -1,4 +1,5 @@
 import CustomerReview from "./sections/CustomerReview";
+import { Analytics } from "@vercel/analytics/react";
 import Hero from "./sections/Hero";
 import Footer from "./sections/Footer";
 import PopularProducts from "./sections/PopularProducts";
@@ -34,6 +35,7 @@ const App = () => (
     <section className="bg-black padding-x padding-t">
       <Footer />
     </section>
+    <Analytics />
   </main>
 );
 
